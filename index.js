@@ -1,5 +1,5 @@
 function saturdayFun(activity="roller-skate"){
-    return 'This Saturday, I want to ${activity}!'
+    return `This Saturday, I want to ${activity}!`
 }
 
 let mondayWork = function(activity="go to the office") {
@@ -8,6 +8,6 @@ let mondayWork = function(activity="go to the office") {
 
 let wrapAdjective = function(style="*") {
     return function(adjective="special") {
-        return `You are ${style}${adjjective}${style}!`
+        return `You are ${style}${adjective}${style}!`
     }
 }
